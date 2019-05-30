@@ -1,4 +1,5 @@
 <h1>New Student Form</h1>
 <%= form_tag new_student_path do %>
-  <label></label>
+  <label>First Name:</label><br>
+  <%= text_field_tag :'student[first_name]' %><br>
 <% end %>
